@@ -1,0 +1,73 @@
+            /* h1 {
+                color: #ff0000;
+                text-decoration: underline;
+                text-align: left;
+            }
+            
+            h2 {
+                color: #ff0000;
+                text-decoration: line-through;
+                text-align: center;
+            }
+            
+            h3 {
+                color: #ff0000;
+                text-decoration: overline;
+                text-align: end;
+            }
+            
+            .parrafo1 {
+                text-indent: 40px;
+                word-spacing: 1px;
+                text-transform: capitalize;
+                letter-spacing: 1px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background-color: #ffff00;
+                border: 1px solid black;
+                font-size: 18px;
+                padding-right: 25px;
+                margin-top: 200px;
+                position: relative;
+                margin: auto;
+            }
+            
+            .parrafo2 {
+                text-indent: 40px;
+                word-spacing: 1px;
+                text-transform: capitalize;
+                letter-spacing: 1px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background-color: #d345;
+                border-style: dashed;
+                position: relative;
+                margin: auto;
+            } */
+            
+            #menu {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            #menu p {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #menu a {
+                display: block;
+                padding: 3px;
+                width: 160px;
+                background-color: #f7f8e8;
+                border-bottom: 1px solid #eeeeee;
+                text-align: center;
+            }
+            
+            #menu a:link,
+            #menu a:visited {
+                color: #336699;
+                text-decoration: none;
+            }
+            
+            #menu a:hover {
+                background-color: #336699;
+                color: #ffffff;
+            }

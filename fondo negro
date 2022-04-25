@@ -1,0 +1,29 @@
+<!doctype html><html dir="ltr" lang="es"><head><meta charset="utf-8"><title>Nueva pestaña</title><script src="edge://resources/js/cr.js"></script><script src="edge://resources/js/load_time_data.js"></script><script src="edge://resources/js/util.js"></script><script src="edge://resources/js/assert.js"></script><script src="/base-error-reporting.js"></script><script src="/inprivate-ntp-error-reporting.js"></script><script src="/strings.js"></script><style>body {
+            font-family: 'system-ui', sans-serif;
+            background-color: rgb(36, 36, 36);
+        }
+
+        input::selection {
+            color: #FFF;
+            background: #0078D4;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            input::selection {
+                color: #000;
+                /* RGBA because Blink applies an opacity otherwise */
+                background: rgba(147, 184, 231, 0.996);
+                opacity: 1;
+            }
+        }
+
+        #app-root {
+            height: 100%;
+            overflow: hidden;
+            position: absolute;
+            width: 100%;
+        }
+
+        #app-root:focus {
+            outline: none;
+        }</style></head><body style="margin: 0;"><div id="app-root" tabindex="-1"></div><script defer="defer" src="/bundle.js"></script></body></html>
